@@ -1,4 +1,4 @@
-module github.com/jchackert/jchTerm
+module github.com/jchackert/jchterm
 
 go 1.23.1
 

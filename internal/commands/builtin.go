@@ -1,6 +1,9 @@
+// internal/commands/builtin.go
+
 package commands
 
 import (
+	"fmt"
 	"os"
 	"os/exec"
 )
@@ -10,12 +13,12 @@ func executeClear() (string, error) {
 }
 
 func executeRebuild() (string, error) {
-	cmd := exec.Command("go", "build", "-o", "jchterm_new", "cmd/jchterm/main.go")
+	cmd := exec.Command("go", "build", "-o", "jchterm", "cmd/jchterm/main.go")
 	output, err := cmd.CombinedOutput()
 	if err != nil {
-		return "", err
+		return "", fmt.Errorf("build failed: %v\n%s", err, output)
 	}
-	return "jchTerm rebuilt. Please restart the application.", nil
+	return "jchterm rebuilt. Please restart the application.", nil
 }
 
 func executeEdit() (string, error) {
@@ -29,7 +32,7 @@ func executeEdit() (string, error) {
 	cmd.Stderr = os.Stderr
 	err := cmd.Run()
 	if err != nil {
-		return "", err
+		return "", fmt.Errorf("error opening editor: %v", err)
 	}
 	return "File edited. Use 'rebuild' to apply changes.", nil
 }
@@ -38,7 +41,7 @@ func executeShell(args []string) (string, error) {
 	cmd := exec.Command(args[0], args[1:]...)
 	output, err := cmd.CombinedOutput()
 	if err != nil {
-		return "", err
+		return "", fmt.Errorf("command execution failed: %v\n%s", err, output)
 	}
 	return string(output), nil
 }

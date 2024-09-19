@@ -1,3 +1,5 @@
+// internal/tui/view.go
+
 package tui
 
 import (
@@ -5,7 +7,7 @@ import (
 
 	"github.com/charmbracelet/lipgloss"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/jchackert/jchTerm/internal/config"
+	"github.com/jchackert/jchterm/internal/config"
 )
 
 func (m Model) View() string {
@@ -34,31 +36,4 @@ func Run() error {
 
 	_, err := p.Run()
 	return err
-}
-
-4. internal/commands/commands.go
-package commands
-
-import (
-	"strings"
-)
-
-func ExecuteCommand(command string) (string, error) {
-	args := strings.Fields(command)
-	if len(args) == 0 {
-		return "", nil
-	}
-
-	switch args[0] {
-	case "clear":
-		return executeClear()
-	case "rebuild":
-		return executeRebuild()
-	case "edit":
-		return executeEdit()
-	case "ask":
-		return executeAsk(args[1:])
-	default:
-		return executeShell(args)
-	}
 }

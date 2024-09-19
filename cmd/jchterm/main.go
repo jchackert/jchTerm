@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jchackert/jchTerm/internal/tui"
+	"github.com/jchackert/jchterm/internal/tui"
 )
 
 func main() {

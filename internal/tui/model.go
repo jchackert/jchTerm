@@ -4,8 +4,8 @@ import (
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/jchackert/jchTerm/internal/commands"
-	"github.com/jchackert/jchTerm/internal/config"
+	"github.com/jchackert/jchterm/internal/commands"
+	"github.com/jchackert/jchterm/internal/config"
 )
 type Model struct {
 	textInput    textinput.Model
