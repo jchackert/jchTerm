@@ -1,0 +1,1371 @@
+2024/09/27 09:41:43.665393 main.go:47: Application started
+2024/09/27 09:41:43.665553 model.go:106: Entering tui.Run()
+2024/09/27 09:41:43.665855 model.go:120: Running program...
+2024/09/27 09:41:43.666247 model.go:46: Received message of type: cursor.initialBlinkMsg
+2024/09/27 09:41:43.666314 model.go:46: Received message of type: tea.WindowSizeMsg
+2024/09/27 09:41:44.197511 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:44.728792 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:45.260137 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:45.791272 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:46.322094 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:46.852504 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:47.383544 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:47.914697 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:48.445936 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:48.977228 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:49.508331 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:50.039105 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:50.569532 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:51.086197 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:51.086415 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:51.311904 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:51.312306 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:51.599773 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:51.599875 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:51.755933 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:51.756612 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:52.271737 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:52.272037 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:52.377804 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:52.377994 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:52.585436 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:52.585760 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:52.713887 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:52.714177 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:52.895803 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:52.896134 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:53.072198 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:53.072960 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:53.154728 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:53.155821 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:53.328525 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:53.328793 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:53.438507 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:53.438826 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:53.511077 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:53.511359 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:53.566386 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:53.566581 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:53.826350 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:53.826694 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:53.925012 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:53.925421 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:54.112345 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:54.113176 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:54.369068 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:54.369240 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:54.604581 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:54.605027 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:54.863027 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:54.863220 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:55.066568 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:55.066798 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:55.223890 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:55.224092 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:55.402884 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:55.403088 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:55.526406 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:55.526592 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:55.714360 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:55.714587 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:55.921795 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:55.922149 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:56.050933 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:56.053996 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:56.492511 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:56.492801 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:56.693797 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:56.694116 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:56.801469 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:56.801785 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:57.190126 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:57.190470 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:57.448421 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:57.448764 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:57.706273 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:57.706900 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:58.197872 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:58.198276 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:41:58.728219 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:59.259520 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:41:59.282884 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:41:59.283049 model.go:56: Executing command: ask who is the president of france?
+2024/09/27 09:41:59.283363 model.go:84: Running command: ask who is the president of france?
+2024/09/27 09:41:59.283695 claude.go:16: executeAsk called with args: [who is the president of france?]
+2024/09/27 09:41:59.283753 claude.go:22: executeAsk: Calling askClaude with question: who is the president of france?
+2024/09/27 09:41:59.283783 claude.go:27: askClaude called with question: who is the president of france?
+2024/09/27 09:41:59.284019 claude.go:37: askClaude: Sending request to API URL: https://api.anthropic.com/v1/messages
+2024/09/27 09:41:59.499066 claude.go:55: askClaude: Received response with status: 401 Unauthorized
+2024/09/27 09:41:59.499230 claude.go:63: askClaude: Response body: {"type":"error","error":{"type":"authentication_error","message":"Invalid bearer token"}}
+2024/09/27 09:41:59.499445 claude.go:74: askClaude: Unexpected response format
+2024/09/27 09:41:59.499484 model.go:87: Command error: Error: Unexpected response format
+2024/09/27 09:41:59.499528 model.go:46: Received message of type: string
+2024/09/27 09:41:59.790553 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:00.321290 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:00.851836 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:01.383089 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:01.914394 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:02.445754 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:02.976222 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:03.507381 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:04.038197 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:04.568973 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:05.100185 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:05.631603 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:06.163000 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:06.694327 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:07.225799 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:42:07.245434 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:42:07.256801 model.go:125: Exiting tui.Run()
+2024/09/27 09:42:07.256862 main.go:59: Application exiting
+2024/09/27 09:43:43.258636 main.go:40: Application started
+2024/09/27 09:43:43.258961 model.go:106: Entering tui.Run()
+2024/09/27 09:43:43.259137 model.go:120: Running program...
+2024/09/27 09:43:43.259321 model.go:46: Received message of type: cursor.initialBlinkMsg
+2024/09/27 09:43:43.259355 model.go:46: Received message of type: tea.WindowSizeMsg
+2024/09/27 09:43:43.790528 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:44.321843 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:44.853021 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:45.384090 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:45.914766 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:46.445085 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:46.976292 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:47.507451 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:48.037750 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:48.569007 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:49.100003 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:49.630690 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:50.161051 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:50.691507 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:51.222620 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:51.754758 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:52.286171 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:52.817312 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:53.348235 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:53.878784 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:54.409921 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:54.940465 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:55.471759 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:56.002234 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:56.533127 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:57.063885 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:57.594274 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:58.124998 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:58.655406 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:59.186689 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:43:59.717235 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:00.248070 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:00.778533 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:01.309332 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:01.840316 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:02.371668 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:02.902977 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:03.434043 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:03.964785 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:04.495131 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:05.026495 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:05.558487 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:06.089340 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:06.620566 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:07.151777 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:07.682333 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:08.212963 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:08.743484 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:09.274239 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:09.805566 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:10.336722 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:10.867832 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:11.398739 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:11.929447 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:12.460142 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:12.991460 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:13.522748 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:14.053621 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:14.584683 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:15.115569 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:15.646063 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:16.176369 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:16.707752 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:17.238976 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:17.770109 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:18.301159 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:18.831858 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:19.362280 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:19.893373 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:20.424535 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:20.955458 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:21.486588 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:22.016898 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:22.547618 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:23.077976 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:23.609099 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:24.139681 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:24.673257 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:25.203852 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:25.735137 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:26.266112 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:26.796790 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:27.328175 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:27.859487 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:28.390380 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:28.920943 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:29.452053 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:29.982951 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:30.513583 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:31.043906 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:31.575261 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:32.105656 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:32.636956 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:33.167554 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:33.698365 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:34.229014 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:34.759820 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:35.290898 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:35.821441 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:36.352198 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:36.883285 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:37.414061 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:37.944516 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:38.475919 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:39.006646 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:39.537974 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:40.069277 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:40.600471 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:41.131364 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:41.661901 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:42.193139 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:42.724332 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:43.254921 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:43.785436 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:44.316502 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:44.847140 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:45.377473 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:45.907728 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:46.438968 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:46.970269 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:47.501602 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:48.031850 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:48.562591 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:49.093214 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:49.623973 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:50.155024 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:50.686257 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:51.216612 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:51.747184 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:52.277491 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:52.811192 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:53.342994 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:53.874230 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:54.405388 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:54.936138 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:55.467964 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:55.998789 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:56.529509 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:57.059820 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:57.590730 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:58.122115 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:58.653375 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:59.184310 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:44:59.714757 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:00.245052 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:00.776312 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:01.309734 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:01.840200 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:02.370548 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:02.902733 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:03.436442 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:03.967692 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:04.503182 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:05.034467 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:05.565253 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:06.095863 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:06.626481 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:07.157734 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:07.689118 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:08.220209 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:08.751602 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:09.282468 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:09.813059 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:10.343385 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:10.874132 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:11.404524 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:11.935874 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:12.466992 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:12.997619 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:13.528862 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:14.059160 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:14.590188 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:15.121432 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:15.652829 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:16.184405 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:16.715093 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:17.245765 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:17.776049 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:18.307287 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:18.838550 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:19.368747 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:19.899751 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:20.430589 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:20.960925 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:21.492235 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:22.023514 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:22.554803 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:23.085535 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:23.616737 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:24.147253 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:24.678041 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:25.209488 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:25.740805 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:26.271396 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:26.801840 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:27.332866 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:27.863437 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:28.393789 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:28.925118 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:29.456450 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:29.987881 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:30.519640 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:31.050619 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:31.581626 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:32.112228 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:32.642915 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:33.174238 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:33.705358 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:34.236608 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:34.768035 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:35.299116 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:35.829892 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:36.360270 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:36.890795 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:37.422068 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:37.953272 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:38.484503 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:39.015506 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:39.546229 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:40.076596 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:40.607593 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:41.138896 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:41.670366 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:42.201760 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:42.732112 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:43.262798 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:43.793181 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:44.324550 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:44.854775 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:45.386015 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:45.916574 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:46.447434 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:46.978130 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:47.509411 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:48.042357 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:48.573707 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:49.104832 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:49.636214 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:50.167364 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:50.698328 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:51.229126 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:51.759401 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:52.290619 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:52.821442 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:53.352612 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:53.883294 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:54.418897 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:54.949979 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:55.481618 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:56.012293 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:56.542733 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:57.073366 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:57.604683 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:58.136315 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:58.667460 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:59.198431 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:45:59.729151 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:00.259564 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:00.790835 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:01.322351 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:01.853582 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:02.384919 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:02.916108 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:03.446876 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:03.977453 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:04.508742 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:05.039970 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:05.570811 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:06.101188 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:06.632261 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:07.162922 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:07.693428 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:08.224773 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:08.755601 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:09.286427 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:09.818110 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:10.349348 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:10.880130 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:11.410554 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:11.941206 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:12.476912 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:13.016287 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:13.547715 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:14.078227 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:14.609198 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:15.139733 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:15.670171 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:16.200655 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:16.731600 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:17.262086 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:17.792516 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:18.322849 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:18.853638 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:19.384036 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:19.914833 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:20.445304 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:20.754295 main.go:47: Application started
+2024/09/27 09:46:20.754386 model.go:106: Entering tui.Run()
+2024/09/27 09:46:20.754745 model.go:120: Running program...
+2024/09/27 09:46:20.755136 model.go:46: Received message of type: tea.WindowSizeMsg
+2024/09/27 09:46:20.755210 model.go:46: Received message of type: cursor.initialBlinkMsg
+2024/09/27 09:46:20.975863 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:21.286373 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:21.507023 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:21.817506 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:22.038170 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:22.349613 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:22.569305 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:22.880822 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:23.100397 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:23.411596 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:23.631109 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:23.942032 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:24.162043 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:24.472167 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:24.692490 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:25.003281 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:25.223587 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:25.534433 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:25.754672 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:26.065559 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:26.285048 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:26.596517 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:26.815289 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:27.127164 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:27.345892 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:27.657515 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:27.876035 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:28.188713 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:28.406580 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:28.719041 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:28.773814 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:46:28.785184 model.go:125: Exiting tui.Run()
+2024/09/27 09:46:28.785216 main.go:50: Application exiting
+2024/09/27 09:46:29.250214 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:29.781466 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:30.312234 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:30.842879 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:31.373093 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:31.903896 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:32.434126 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:32.965605 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:33.497384 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:34.028049 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:34.558602 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:35.090614 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:35.621792 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:36.152139 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:36.683257 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:37.214366 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:37.745197 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:38.275717 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:38.805876 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:39.337103 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:39.868325 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:40.399518 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:40.931275 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:41.461975 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:41.992574 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:42.522957 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:43.054381 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:43.584977 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:44.116283 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:44.647538 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:45.178515 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:45.709202 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:46.239678 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:46.770516 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:47.301442 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:47.832555 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:48.363578 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:48.894346 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:49.424859 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:49.955178 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:50.488486 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:51.018978 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:51.550253 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:52.081213 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:52.612385 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:53.143121 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:53.673608 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:54.204888 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:54.736143 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:55.266875 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:55.798192 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:56.329190 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:56.859567 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:57.390170 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:57.921284 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:58.452849 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:58.984261 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:46:59.514602 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:00.045508 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:00.576254 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:01.106739 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:01.638163 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:02.169115 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:02.702232 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:03.233355 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:03.764672 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:04.296061 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:04.826926 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:05.357361 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:05.888628 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:06.419844 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:06.951338 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:07.482700 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:08.013967 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:08.544919 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:09.075538 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:09.605878 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:10.136683 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:10.667895 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:11.199892 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:11.731238 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:12.262206 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:12.792773 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:13.323169 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:13.854658 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:14.386379 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:14.917026 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:15.448247 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:15.979362 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:16.510203 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:17.040642 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:17.571649 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:18.104235 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:18.634823 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:19.166278 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:19.697456 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:20.228383 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:20.759132 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:21.289356 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:21.820573 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:22.351217 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:22.882531 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:23.413678 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:23.944072 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:24.474555 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:25.005696 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:25.537628 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:26.068948 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:26.599981 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:27.131408 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:27.662647 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:28.193531 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:28.724040 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:29.255455 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:29.786434 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:30.317735 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:30.849098 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:31.380403 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:31.911395 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:32.442051 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:32.800535 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:47:32.811903 model.go:125: Exiting tui.Run()
+2024/09/27 09:47:32.811944 main.go:59: Application exiting
+2024/09/27 09:47:40.417151 main.go:43: Application started
+2024/09/27 09:47:40.417188 main.go:44: Executable directory: /Users/jchackert/Code/jchTerm
+2024/09/27 09:47:40.417198 main.go:45: Project root directory: /Users/jchackert/Code/jchTerm
+2024/09/27 09:47:40.417207 main.go:46: Logs directory: /Users/jchackert/Code/jchTerm/logs
+2024/09/27 09:47:40.417219 main.go:47: Log file path: /Users/jchackert/Code/jchTerm/logs/jchterm_2024-09-27.log
+2024/09/27 09:47:40.417280 model.go:106: Entering tui.Run()
+2024/09/27 09:47:40.417536 model.go:120: Running program...
+2024/09/27 09:47:40.418029 model.go:46: Received message of type: cursor.initialBlinkMsg
+2024/09/27 09:47:40.418097 model.go:46: Received message of type: tea.WindowSizeMsg
+2024/09/27 09:47:40.949034 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:41.480026 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:42.010647 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:42.541596 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:43.072191 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:43.602358 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:44.133540 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:44.664727 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:45.196006 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:45.727080 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:46.258051 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:46.788567 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:47.318821 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:47.850094 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:48.380558 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:48.911790 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:49.442937 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:49.973866 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:50.504852 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:51.035681 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:51.566992 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:52.098256 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:52.629480 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:53.160484 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:53.691478 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:54.222073 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:54.752349 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:55.283616 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:55.814889 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:56.345762 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:56.877006 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:57.408088 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:57.938736 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:58.469037 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:59.000426 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:47:59.531642 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:00.062325 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:00.593542 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:01.124461 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:01.655085 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:02.185583 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:02.716382 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:03.247585 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:03.778836 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:04.309904 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:04.840745 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:05.206065 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:05.206381 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:05.436997 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:05.437497 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:05.695159 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:05.695368 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:06.226368 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:06.703954 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:06.704386 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:07.235344 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:07.738008 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:07.738312 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:07.923095 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:07.923483 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:08.156520 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:08.157031 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:08.281234 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:08.281515 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:08.482417 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:08.482715 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:08.612156 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:08.612495 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:08.723195 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:08.723495 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:08.947716 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:08.948018 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:09.087691 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:09.087953 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:09.136058 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:09.136594 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:09.215566 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:09.216089 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:09.496094 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:09.496319 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:09.626818 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:09.627115 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:09.802603 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:09.802836 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:10.013269 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:10.013493 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:10.215973 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:10.217074 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:10.634257 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:10.634687 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:10.722946 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:10.723075 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:10.970180 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:10.970866 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:11.156578 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:11.157049 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:11.687003 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:12.218157 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:12.748937 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:12.806544 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:12.806849 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:13.337059 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:13.354099 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:13.354313 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:13.679223 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:13.679425 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:13.808497 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:13.808733 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:14.281862 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:14.282206 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:14.489875 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:14.490222 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:14.620346 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:14.620556 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:15.151668 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:15.211583 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:15.211843 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:15.438681 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:15.438960 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:15.626835 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:15.627600 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:16.157794 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:16.658569 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:16.658827 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:48:17.189313 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:17.355978 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:48:17.356120 model.go:56: Executing command: ask who is the president of france?
+2024/09/27 09:48:17.356430 model.go:84: Running command: ask who is the president of france?
+2024/09/27 09:48:17.357046 claude.go:16: executeAsk called with args: [who is the president of france?]
+2024/09/27 09:48:17.357231 claude.go:22: executeAsk: Calling askClaude with question: who is the president of france?
+2024/09/27 09:48:17.357293 claude.go:27: askClaude called with question: who is the president of france?
+2024/09/27 09:48:17.357782 claude.go:37: askClaude: Sending request to API URL: https://api.anthropic.com/v1/messages
+2024/09/27 09:48:17.585216 claude.go:55: askClaude: Received response with status: 401 Unauthorized
+2024/09/27 09:48:17.586534 claude.go:63: askClaude: Response body: {"type":"error","error":{"type":"authentication_error","message":"Invalid bearer token"}}
+2024/09/27 09:48:17.586934 claude.go:74: askClaude: Unexpected response format
+2024/09/27 09:48:17.587249 model.go:87: Command error: Error: Unexpected response format
+2024/09/27 09:48:17.587470 model.go:46: Received message of type: string
+2024/09/27 09:48:17.719834 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:18.251254 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:18.782330 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:19.313533 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:19.844747 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:20.375670 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:20.906309 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:21.436621 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:21.967038 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:22.498469 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:23.029701 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:23.560947 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:24.092027 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:24.622725 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:25.153069 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:25.683584 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:26.214806 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:26.745964 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:27.277188 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:27.807703 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:28.338472 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:28.868765 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:29.400122 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:29.931379 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:30.462631 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:30.993054 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:31.523940 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:32.054589 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:32.584942 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:33.115849 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:33.647110 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:34.178329 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:34.708764 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:35.239137 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:35.769549 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:36.300760 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:36.832047 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:37.363385 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:37.894665 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:38.425089 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:38.955795 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:39.486405 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:40.017808 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:40.549350 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:41.080822 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:41.612171 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:42.142875 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:42.674600 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:43.205176 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:43.735515 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:44.266799 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:44.798131 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:45.329461 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:45.860181 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:46.391229 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:46.921927 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:47.452272 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:47.982877 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:48.514197 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:49.045397 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:49.576510 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:50.107483 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:50.638108 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:51.168445 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:51.698832 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:52.230036 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:52.761296 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:53.292523 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:53.823602 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:54.354177 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:54.884405 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:55.415574 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:55.946745 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:56.478063 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:57.009158 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:57.539987 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:58.070462 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:58.601286 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:59.132556 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:48:59.664209 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:00.194952 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:00.725329 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:01.256125 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:01.786737 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:02.317943 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:02.849236 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:03.380485 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:03.911438 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:04.442991 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:04.973301 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:05.504076 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:06.035085 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:06.566691 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:07.098016 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:07.628546 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:08.159686 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:08.690304 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:09.220759 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:09.751259 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:10.282567 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:10.813468 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:11.344807 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:11.875499 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:12.406833 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:12.938191 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:13.469978 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:14.001325 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:14.532746 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:15.063985 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:15.595307 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:16.125939 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:16.656788 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:17.187133 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:17.718230 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:18.249569 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:18.780658 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:19.311920 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:19.843221 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:20.374177 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:20.904819 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:21.435284 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:21.966716 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:22.497564 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:23.029302 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:23.560341 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:24.091054 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:24.621871 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:25.152460 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:25.683971 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:26.214580 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:26.746015 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:27.277701 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:27.808891 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:28.339687 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:28.870268 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:29.401600 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:29.932970 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:30.463393 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:30.993688 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:31.524663 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:32.055814 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:32.587970 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:33.122076 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:33.652485 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:34.183974 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:34.715347 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:35.245630 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:35.776850 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:36.307805 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:36.838467 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:37.368828 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:37.900066 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:38.431355 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:38.962450 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:39.493653 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:40.024086 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:40.554638 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:41.084794 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:41.615989 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:42.147254 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:42.678526 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:43.209552 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:43.740354 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:44.270922 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:44.801397 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:45.332160 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:45.863040 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:46.394197 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:46.924439 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:47.454973 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:47.985184 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:48.516340 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:49.048094 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:49.578782 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:50.109542 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:50.640333 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:51.170840 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:51.701134 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:52.232043 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:52.763246 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:53.294130 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:53.824371 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:54.354922 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:54.885251 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:55.415394 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:55.945709 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:56.476846 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:57.007660 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:57.538202 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:58.068466 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:58.599808 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:59.130957 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:49:59.662106 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:00.193198 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:00.724021 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:01.254620 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:01.784872 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:02.316083 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:02.847422 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:03.377814 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:03.909613 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:04.440878 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:04.971493 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:05.501798 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:06.033641 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:06.564690 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:07.095987 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:07.627118 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:08.168717 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:08.700181 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:09.231463 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:09.762776 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:10.294053 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:10.824281 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:11.354683 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:11.885102 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:12.416239 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:12.947396 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:13.478847 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:14.010070 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:14.540924 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:15.071613 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:15.603133 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:16.134496 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:16.665813 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:17.196093 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:17.727200 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:18.258337 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:18.789097 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:19.319624 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:19.850304 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:20.381534 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:20.912854 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:21.444070 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:21.974959 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:22.505744 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:23.038708 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:23.568995 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:24.100525 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:24.631654 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:25.162848 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:25.693551 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:26.226516 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:26.759603 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:27.290411 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:27.821041 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:28.351280 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:28.882513 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:29.413713 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:29.944990 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:30.476231 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:31.006766 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:31.537403 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:32.067742 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:32.598802 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:33.130035 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:33.661029 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:34.192168 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:34.722920 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:35.253319 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:35.783461 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:36.314099 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:36.845432 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:37.376760 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:37.907876 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:38.438541 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:38.968883 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:39.500043 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:39.613790 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:39.625576 model.go:125: Exiting tui.Run()
+2024/09/27 09:50:39.625689 main.go:57: Application exiting normally
+2024/09/27 09:50:50.399382 main.go:43: Application started
+2024/09/27 09:50:50.399450 main.go:44: Executable directory: /Users/jchackert/Code/jchTerm
+2024/09/27 09:50:50.399488 main.go:45: Project root directory: /Users/jchackert/Code/jchTerm
+2024/09/27 09:50:50.399508 main.go:46: Logs directory: /Users/jchackert/Code/jchTerm/logs
+2024/09/27 09:50:50.399526 main.go:47: Log file path: /Users/jchackert/Code/jchTerm/logs/jchterm_2024-09-27.log
+2024/09/27 09:50:50.399567 model.go:106: Entering tui.Run()
+2024/09/27 09:50:50.400061 model.go:120: Running program...
+2024/09/27 09:50:50.400338 model.go:46: Received message of type: tea.WindowSizeMsg
+2024/09/27 09:50:50.400460 model.go:46: Received message of type: cursor.initialBlinkMsg
+2024/09/27 09:50:50.931281 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:51.462659 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:51.993894 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:52.524639 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:50:52.993822 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:52.994050 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:53.226652 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:53.226932 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:53.493699 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:53.493953 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:53.648737 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:53.649110 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:54.106824 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:54.107058 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:54.215699 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:54.216107 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:54.425926 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:54.428665 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:54.576326 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:54.576628 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:54.760324 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:54.760631 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:54.934483 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:54.934803 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:55.043653 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:55.043937 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:55.225370 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:55.225717 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:55.348167 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:55.348570 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:55.402698 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:55.403149 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:55.505637 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:55.505975 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:55.792952 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:55.793347 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:55.924574 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:55.924852 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:56.128276 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:56.128522 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:56.414455 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:56.414773 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:56.647486 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:56.647800 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:56.797348 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:56.797663 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:57.009674 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:57.010063 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:57.164356 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:57.164794 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:57.345427 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:57.345785 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:57.495624 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:57.495980 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:57.631459 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:57.631899 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:57.915843 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:57.916215 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:58.065273 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:58.065567 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:58.592989 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:58.593393 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:58.770964 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:58.771413 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:58.897206 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:58.897847 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:59.311756 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:59.312331 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:59.516036 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:59.516344 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:50:59.759521 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:50:59.759714 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:51:00.290714 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:00.293563 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:51:00.293800 model.go:46: Received message of type: cursor.blinkCanceled
+2024/09/27 09:51:00.495067 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:51:00.495317 model.go:56: Executing command: ask who is the president of france?
+2024/09/27 09:51:00.495600 model.go:84: Running command: ask who is the president of france?
+2024/09/27 09:51:00.495800 claude.go:16: executeAsk called with args: [who is the president of france?]
+2024/09/27 09:51:00.495898 claude.go:22: executeAsk: Calling askClaude with question: who is the president of france?
+2024/09/27 09:51:00.496061 claude.go:27: askClaude called with question: who is the president of france?
+2024/09/27 09:51:00.496327 claude.go:37: askClaude: Sending request to API URL: https://api.anthropic.com/v1/messages
+2024/09/27 09:51:00.673639 claude.go:55: askClaude: Received response with status: 401 Unauthorized
+2024/09/27 09:51:00.673777 claude.go:63: askClaude: Response body: {"type":"error","error":{"type":"authentication_error","message":"Invalid bearer token"}}
+2024/09/27 09:51:00.673969 claude.go:74: askClaude: Unexpected response format
+2024/09/27 09:51:00.674123 model.go:87: Command error: Error: Unexpected response format
+2024/09/27 09:51:00.674160 model.go:46: Received message of type: string
+2024/09/27 09:51:00.824114 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:01.354630 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:01.884940 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:02.416087 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:02.947323 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:03.477770 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:04.008970 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:04.539840 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:05.070374 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:05.601307 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:06.132614 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:06.663850 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:07.195119 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:07.726919 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:08.258040 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:08.788761 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:09.319050 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:09.850262 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:10.381504 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:10.913753 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:11.444122 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:11.975188 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:12.506051 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:13.036478 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:13.567706 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:14.098858 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:14.630075 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:15.161483 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:15.692680 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:16.223670 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:16.754237 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:17.285156 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:17.816543 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:18.347766 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:18.878943 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:19.410125 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:19.941189 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:20.471791 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:21.002049 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:21.533230 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:22.064385 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:22.595565 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:23.126716 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:23.657760 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:24.187922 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:24.718064 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:25.248744 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:25.779092 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:26.310281 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:26.840576 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:27.371075 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:27.901265 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:28.432417 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:28.963571 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:29.494411 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:30.025458 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:30.556075 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:31.086497 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:31.617711 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:32.148963 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:32.679319 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:33.210472 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:33.741295 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:34.271839 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:34.802233 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:35.332956 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:35.864219 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:36.395443 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:36.926642 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:37.456887 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:37.987446 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:38.517601 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:39.048799 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:39.579599 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:40.111035 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:40.642189 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:41.173007 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:41.704788 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:42.234973 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:42.766148 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:43.297316 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:43.828371 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:44.359484 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:44.889865 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:45.421112 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:45.951434 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:46.482336 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:47.012982 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:47.544289 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:48.075427 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:48.606230 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:49.136895 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:49.667621 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:50.199075 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:50.730950 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:51.262773 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:51.794173 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:52.325354 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:52.856275 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:53.386814 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:53.917250 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:54.448535 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:54.979787 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:55.512753 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:56.044173 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:56.575347 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:57.106245 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:57.636756 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:58.167536 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:58.698127 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:59.229364 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:51:59.760171 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:00.291336 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:00.822105 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:01.352871 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:01.883252 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:02.414553 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:02.945879 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:03.477196 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:04.008307 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:04.539233 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:05.069909 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:05.600846 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:06.132052 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:06.664690 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:07.195152 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:07.726406 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:08.257162 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:08.787639 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:09.317868 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:09.848398 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:10.379199 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:10.911169 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:11.442325 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:11.974767 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:12.505660 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:13.036091 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:13.567463 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:14.098758 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:14.629860 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:15.161248 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:15.692314 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:16.222831 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:16.753431 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:17.286470 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:17.817433 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:18.348204 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:18.879113 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:19.410366 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:19.942300 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:20.473335 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:21.003940 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:21.534301 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:22.065550 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:22.596896 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:23.128274 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:23.659594 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:24.190509 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:24.721151 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:25.251427 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:25.781816 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:26.312196 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:26.844757 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:27.375775 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:27.906730 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:28.437316 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:28.967566 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:29.498167 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:30.029298 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:30.560561 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:31.091838 model.go:46: Received message of type: cursor.BlinkMsg
+2024/09/27 09:52:31.161277 model.go:46: Received message of type: tea.KeyMsg
+2024/09/27 09:52:31.172811 model.go:125: Exiting tui.Run()
+2024/09/27 09:52:31.172891 main.go:57: Application exiting normally
+2024/09/27 09:52:36.310555 main.go:43: Application started
+2024/09/27 09:52:36.310579 main.go:44: Executable directory: /Users/jchackert/Code/jchTerm
+2024/09/27 09:52:36.310593 main.go:45: Project root directory: /Users/jchackert/Code/jchTerm
+2024/09/27 09:52:36.310603 main.go:46: Logs directory: /Users/jchackert/Code/jchTerm/logs
+2024/09/27 09:52:36.310612 main.go:47: Log file path: /Users/jchackert/Code/jchTerm/logs/jchterm_2024-09-27.log
+2024/09/27 09:52:36.310673 model.go:111: Entering tui.Run()
+2024/09/27 09:52:36.310952 model.go:125: Running program...
+2024/09/27 09:52:36.311423 model.go:80: Received message of type: tea.WindowSizeMsg
+2024/09/27 09:52:52.262986 model.go:56: Executing command: ask who is the president of france?
+2024/09/27 09:52:52.263414 model.go:90: Running command: ask who is the president of france?
+2024/09/27 09:52:52.263952 claude.go:16: executeAsk called with args: [who is the president of france?]
+2024/09/27 09:52:52.264170 claude.go:22: executeAsk: Calling askClaude with question: who is the president of france?
+2024/09/27 09:52:52.264258 claude.go:27: askClaude called with question: who is the president of france?
+2024/09/27 09:52:52.264530 claude.go:37: askClaude: Sending request to API URL: https://api.anthropic.com/v1/messages
+2024/09/27 09:52:52.438716 claude.go:55: askClaude: Received response with status: 401 Unauthorized
+2024/09/27 09:52:52.438894 claude.go:63: askClaude: Response body: {"type":"error","error":{"type":"authentication_error","message":"Invalid bearer token"}}
+2024/09/27 09:52:52.439068 claude.go:74: askClaude: Unexpected response format
+2024/09/27 09:52:52.439158 model.go:93: Command error: Error: Unexpected response format
+2024/09/27 09:52:52.439307 model.go:80: Received message of type: string
+2024/09/27 09:54:05.547297 model.go:130: Exiting tui.Run()
+2024/09/27 09:54:05.547421 main.go:57: Application exiting normally
+2024/09/27 09:54:07.031523 main.go:43: Application started
+2024/09/27 09:54:07.031586 main.go:44: Executable directory: /Users/jchackert/Code/jchTerm
+2024/09/27 09:54:07.031599 main.go:45: Project root directory: /Users/jchackert/Code/jchTerm
+2024/09/27 09:54:07.031609 main.go:46: Logs directory: /Users/jchackert/Code/jchTerm/logs
+2024/09/27 09:54:07.031621 main.go:47: Log file path: /Users/jchackert/Code/jchTerm/logs/jchterm_2024-09-27.log
+2024/09/27 09:54:07.031641 model.go:111: Entering tui.Run()
+2024/09/27 09:54:07.031845 model.go:125: Running program...
+2024/09/27 09:54:07.032047 model.go:80: Received message of type: tea.WindowSizeMsg
+2024/09/27 09:54:16.053203 model.go:56: Executing command: ask who is the president of france?
+2024/09/27 09:54:16.053628 model.go:90: Running command: ask who is the president of france?
+2024/09/27 09:54:16.053927 claude.go:16: executeAsk called with args: [who is the president of france?]
+2024/09/27 09:54:16.054065 claude.go:22: executeAsk: Calling askClaude with question: who is the president of france?
+2024/09/27 09:54:16.054140 claude.go:27: askClaude called with question: who is the president of france?
+2024/09/27 09:54:16.054333 claude.go:37: askClaude: Sending request to API URL: https://api.anthropic.com/v1/messages
+2024/09/27 09:54:16.229542 claude.go:55: askClaude: Received response with status: 401 Unauthorized
+2024/09/27 09:54:16.229742 claude.go:63: askClaude: Response body: {"type":"error","error":{"type":"authentication_error","message":"Invalid bearer token"}}
+2024/09/27 09:54:16.229884 claude.go:74: askClaude: Unexpected response format
+2024/09/27 09:54:16.229973 model.go:93: Command error: Error: Unexpected response format
+2024/09/27 09:54:16.230073 model.go:80: Received message of type: string
+2024/09/27 09:54:54.352862 model.go:56: Executing command: ask who is the president of france?
+2024/09/27 09:54:54.353403 model.go:90: Running command: ask who is the president of france?
+2024/09/27 09:54:54.353647 claude.go:16: executeAsk called with args: [who is the president of france?]
+2024/09/27 09:54:54.353886 claude.go:22: executeAsk: Calling askClaude with question: who is the president of france?
+2024/09/27 09:54:54.354011 claude.go:27: askClaude called with question: who is the president of france?
+2024/09/27 09:54:54.354132 claude.go:37: askClaude: Sending request to API URL: https://api.anthropic.com/v1/messages
+2024/09/27 09:54:54.464386 claude.go:55: askClaude: Received response with status: 401 Unauthorized
+2024/09/27 09:54:54.464570 claude.go:63: askClaude: Response body: {"type":"error","error":{"type":"authentication_error","message":"Invalid bearer token"}}
+2024/09/27 09:54:54.464689 claude.go:74: askClaude: Unexpected response format
+2024/09/27 09:54:54.464769 model.go:93: Command error: Error: Unexpected response format
+2024/09/27 09:54:54.464865 model.go:80: Received message of type: string
+2024/09/27 09:58:18.675594 model.go:130: Exiting tui.Run()
+2024/09/27 09:58:18.676769 main.go:57: Application exiting normally
+2024/09/27 09:58:23.703944 main.go:43: Application started
+2024/09/27 09:58:23.703978 main.go:44: Executable directory: /Users/jchackert/Code/jchTerm
+2024/09/27 09:58:23.703995 main.go:45: Project root directory: /Users/jchackert/Code/jchTerm
+2024/09/27 09:58:23.704006 main.go:46: Logs directory: /Users/jchackert/Code/jchTerm/logs
+2024/09/27 09:58:23.704018 main.go:47: Log file path: /Users/jchackert/Code/jchTerm/logs/jchterm_2024-09-27.log
+2024/09/27 09:58:23.704080 model.go:111: Entering tui.Run()
+2024/09/27 09:58:23.704421 model.go:125: Running program...
+2024/09/27 09:58:23.704918 model.go:80: Received message of type: tea.WindowSizeMsg
+2024/09/27 09:58:32.124506 model.go:56: Executing command: ask who is the president of france?
+2024/09/27 09:58:32.124711 model.go:90: Running command: ask who is the president of france?
+2024/09/27 09:58:32.124930 claude.go:16: executeAsk called with args: [who is the president of france?]
+2024/09/27 09:58:32.124994 claude.go:22: executeAsk: Calling askClaude with question: who is the president of france?
+2024/09/27 09:58:32.125018 claude.go:27: askClaude called with question: who is the president of france?
+2024/09/27 09:58:32.125289 claude.go:41: askClaude: Sending request to API URL: https://api.anthropic.com/v1/messages
+2024/09/27 09:58:39.207493 claude.go:60: askClaude: Received response with status: 200 OK
+2024/09/27 09:58:39.207814 claude.go:68: askClaude: Response body: {"id":"msg_01BoLsXwVrj8fmQRLaaHEfAb","type":"message","role":"assistant","model":"claude-3-opus-20240229","content":[{"type":"text","text":"The current president of France is Emmanuel Macron.\n\nKey facts about President Macron:\n\n1. He assumed office on May 14, 2017.\n\n2. Macron is the youngest president in the history of the French Fifth Republic, taking office at the age of 39.\n\n3. Before becoming president, he served as the Minister of Economy, Industry and Digital Affairs from 2014 to 2016.\n\n4. He founded the centrist political party \"La République En Marche!\" (Republic on the Move) in 2016.\n\n5. Macron won his second term in office in the 2022 French presidential election, defeating Marine Le Pen in the runoff.\n\nHis current term is set to end in 2027, as French presidents are limited to two consecutive terms in office."}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":14,"output_tokens":179}}
+2024/09/27 09:58:39.208019 claude.go:106: askClaude: Returning response: The current president of France is Emmanuel Macron.
+
+Key facts about President Macron:
+
+1. He assumed office on May 14, 2017.
+
+2. Macron is the youngest president in the history of the French Fifth Republic, taking office at the age of 39.
+
+3. Before becoming president, he served as the Minister of Economy, Industry and Digital Affairs from 2014 to 2016.
+
+4. He founded the centrist political party "La République En Marche!" (Republic on the Move) in 2016.
+
+5. Macron won his second term in office in the 2022 French presidential election, defeating Marine Le Pen in the runoff.
+
+His current term is set to end in 2027, as French presidents are limited to two consecutive terms in office.
+2024/09/27 09:58:39.208110 model.go:96: Command output: Claude says: The current president of France is Emmanuel Macron.
+
+Key facts about President Macron:
+
+1. He assumed office on May 14, 2017.
+
+2. Macron is the youngest president in the history of the French Fifth Republic, taking office at the age of 39.
+
+3. Before becoming president, he served as the Minister of Economy, Industry and Digital Affairs from 2014 to 2016.
+
+4. He founded the centrist political party "La République En Marche!" (Republic on the Move) in 2016.
+
+5. Macron won his second term in office in the 2022 French presidential election, defeating Marine Le Pen in the runoff.
+
+His current term is set to end in 2027, as French presidents are limited to two consecutive terms in office.
+2024/09/27 09:58:39.208204 model.go:80: Received message of type: string
+2024/09/27 09:59:25.121547 model.go:130: Exiting tui.Run()
+2024/09/27 09:59:25.121650 main.go:57: Application exiting normally
