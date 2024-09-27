@@ -46,7 +46,7 @@ func askClaude(question string) (string, error) {
 	}
 
 	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("X-API-Key", config.ApiKey)
+	req.Header.Set("X-API-Key", config.GetApiKey())
 	req.Header.Set("anthropic-version", "2023-06-01")
 
 	client := &http.Client{}
