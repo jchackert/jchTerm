@@ -7,10 +7,15 @@ import (
 
 	"github.com/jchackert/jchterm/internal/logger"
 	"github.com/jchackert/jchterm/internal/tui"
+	"github.com/joho/godotenv"
 )
 
 func main() {
-	// Get the directory of the executable
+	// Load .env file
+	err := godotenv.Load()
+	if err != nil {
+		fmt.Printf("Error loading .env file: %v\n", err)
+	}
 	execDir, err := filepath.Abs(filepath.Dir(os.Args[0]))
 	if err != nil {
 		fmt.Printf("Error getting executable directory: %v\n", err)
